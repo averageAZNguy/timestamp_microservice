@@ -43,8 +43,14 @@ app.get('/:timestamp',function(req,res){
 		}	
 	}
 	else {//its unix time - get natural time
-		var unix = str;
-		var natural = timeConverter(str);
+		if(str.length === 10){
+			var unix = str;
+			var natural = timeConverter(str);
+		}
+		else {
+			var unix = null;
+			var natural = null;
+		}
 	}
 	var results = JSON.stringify({'unix': unix, 'natural': natural});
 	res.end(results);
