@@ -1,0 +1,23 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice for FreeCodeCamp - returns unixtime and natural date time from server if requested using natural timestamp or unixtime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averageAZNguy/timestamp_microservice.git"
+  },
+  "author": "Quang-Thuy Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averageAZNguy/timestamp_microservice/issues"
+  },
+  "homepage": "https://github.com/averageAZNguy/timestamp_microservice#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
